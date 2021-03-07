@@ -1,0 +1,128 @@
+<html>
+<head>
+  <title> Under the Sea | Learn More </title>
+</head>
+<body>
+<div class="header">
+  <div class="navBar">
+    <center>
+  <a href="index.html"> Home </a>
+  <a href="learnMore.html"> Learn More </a>
+  <a href="knowledge.html"> Check Your Knowledge </a>
+  <a href="help.html"> Help Out </a>
+  <a href="contact.html"> Contact Us </a>
+    </center>
+  </div>
+  <br><center>
+  <h1 id="title"> Learn More </h1><br>
+  <p id="intro"> There is so much that we don't know about plastic in the ocean. <br>
+  The first step to end this problem is understanding what it is. </p>
+  <button class="arrows" id="scrollDown" style="margin-top: 45px;"><img src="arrow.png" style="height:85px;width:40px;"></button><br><br>
+</center>
+</div>
+  <div class="data">
+    <br>
+  <p class="info" style="float:right;"> One of the biggest problems in today's world is the amount of plastic in the ocean.
+    At least 8 million tons of plastic end up in our oceans every year.
+    Floating plastic debris are currently the most abundant items of marine litter.
+    Waste plastic makes up 80% of all marine debris from surface waters to deep-sea sediments.
+    Plastic has been detected on shorelines of all the continents, with more plastic materials
+    found near popular tourist destinations and densely populated areas.</p>
+  <img src="plastic.gif" style="width:500px;height:250px;margin-left:10px;">
+  <br><br><hr><br>
+  <img src="trash.gif" style="width:500px;height:250px; float:right;">
+  <p class="info" style="margin-left:10px;"> Plastic is a synthetic organic polymer made from petroleum with properties ideally suited for a wide variety of
+  applications, including packaging, building and construction, household and sports equipment, vehicles, electronics and
+   agriculture. Plastic is cheap, lightweight, strong and malleable. Over 300 million tons of plastic are produced every
+   year, half of which is used to design single-use items such as shopping bags, cups and straws. The main sources of marine
+  plastic are land-based, from urban and storm runoff, sewer overflows, beach visitors, inadequate waste disposal and
+   management, industrial activities, construction and illegal dumping. Ocean-based plastic originates mainly from the
+   fishing industry, nautical activities and aquaculture.<p><br><br><hr><br>
+  <img src="rubbish.gif" style="width:500px;height:300px;margin-left:10px;">
+  <p class="info"style="float:right;"> Recycling and reuse of plastic materials are the most effective actions available to reduce the
+    environmental impacts of open landfills and open-air burning that are often practiced to manage domestic waste.
+    Sufficient litter and recycling bins can be placed in cities, and on beaches in coastal areas to accelerate the
+    prevention and reduction of plastic pollution. Governments, research institutions and industries also need to work
+     collaboratively redesigning products, and rethink their usage and disposal, in order to reduce microplastics waste
+     from pellets, synthetic textiles and tyres. This will require solutions which go beyond waste management, to consider
+      the whole lifecycle of plastic products, from product design to infrastructure and household use.
+  To effectively address the issue of marine plastics, research and innovation should be supported. Knowledge of the
+  full extent of plastic pollution and its impacts would provide policy-makers, manufacturers and consumers with
+  scientific evidence needed to spearhead appropriate technological, behavioural and policy solutions. </p>
+  <button class="arrows" id="scrollUp"style="margin-left:1250px;margin-top:-50px;"><img src="arrow2 (2).png" style="height:85px;width:40px;"></button><br><br>
+
+    <br>
+    </div>
+</body>
+<style>
+  .arrows{
+    background: none;
+    border: none;
+  }
+  .header{
+  background-image: url('waves.gif');
+  background-repeat: no-repeat;
+  background-size: 100% 625px;
+}
+  .info{
+    width:780px;
+    font-size:20px;
+  }
+  .data{
+    background-color:#e6ffff;
+  }
+  #intro{
+    color: #ffb31a;
+    font-size: 20px;
+  }
+  #title{
+    font-size: 72px;
+    color: #00e6ac;
+    padding-top: 140px;
+  }
+
+  .navBar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #008080;
+    width:100%;
+  }
+  a:link, a:visited {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    padding-right: 80px;
+    padding-left: 80px;
+    text-align: center;
+  }
+
+  a:hover, a:active {
+    border: none;
+    color: white;
+    background-color: #ffb366;
+  }
+  .navBar{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+
+</style>
+<script>
+  var scrollDown = document.getElementById('scrollDown');
+  var scrollUp = document.getElementById('scrollUp');
+
+  function goDown(){
+    window.scrollTo(0,590);
+  }
+  function goUp(){
+    window.scrollTo(0,0);
+  }
+
+  scrollDown.addEventListener("click",goDown);
+  scrollUp.addEventListener("click", goUp);
+</script>
+</html>

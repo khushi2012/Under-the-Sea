@@ -1,0 +1,28 @@
+.navBar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #008080;
+  width:100%;
+}
+a:link, a:visited {
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  padding-right: 80px;
+  padding-left: 80px;
+  text-align: center;
+}
+
+a:hover, a:active {
+  border: none;
+  color: white;
+  background-color: #ffb366;
+}
+.navBar{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}

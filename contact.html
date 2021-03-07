@@ -1,0 +1,137 @@
+<html>
+<head>
+  <title> Contact Us | Under the Sea </title>
+</head>
+<body>
+<div class="header">
+<div class="navBar">
+  <center>
+<a href="index.html"> Home </a>
+<a href="learnMore.html"> Learn More </a>
+<a href="knowledge.html"> Check Your Knowledge </a>
+<a href="help.html"> Help Out </a>
+<a href="contact.html"> Contact Us </a>
+  </center>
+</div>
+<center> <h1 id="title"> Contact Us </h1>
+<p id="intro"> Hellob nsbvhs</p>
+<button id="scrollDown" class="arrows"><img src="arrow.png" style="height:85px;width:40px;"></button></center><br><br>
+</div>
+<div class="info">
+<center>
+<hr>
+<h1> Send us a Message </h1>
+<form class="msg">
+  <input type="text" name="name" placeholder="Name" required>
+  <br><br>
+  <input type="email" name="email" placeholder="Email" required>
+  <br><br>
+  <input type="text" name="subject" placeholder="Subject" required>
+  <br><br>
+  <input type="text" name="mesg" placeholder="Message" required>
+  <br><br>
+  <input type="submit" name="submit" value="Send Message!">
+</form>
+<hr>
+<h1 style="color: #00e6ac;"> Newsletter </h1>
+<input type="text" name="name" placeholder="Name" required>
+<br><br>
+<input type="email" name="email" placeholder="Email" required>
+<br><br>
+<label for="agree" style="color:white;"> Yes! I would like monthly updates from Under the Sea </label>
+<input type="checkbox" name="agree" checked="true" style="width:15px;height:20px;">
+<br><br>
+<input type="submit" name="submit" value="Sign Me Up" ><br><br>
+<hr>
+</center>
+</div>
+</body>
+<style>
+  input{
+    width: 800px;
+    height: 40px;
+  }
+
+  .header{
+    background-image: url('tenor.gif');
+    background-repeat: no-repeat;
+    background-size: 100% 625px;
+  }
+  .info{
+    background-image: url('tenor.gif');
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+  }
+  .arrows{
+    background: none;
+    border: none;
+    margin-top: 90px;
+  }
+  input[type="submit"]{
+    background-color:#009970;
+    border: 5px solid white;
+    padding: 10px 18px;
+    text-align: center;
+    font-size: 16px;
+    color:white;
+    margin-right: 15px;
+  }
+
+  input[type="submit"]:hover{
+    background-color:white;
+    border: 5px solid #009970;
+    padding: 10px 18px;
+    text-align: center;
+    font-size: 16px;
+    color:#009970;
+  }
+  .navBar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #008080;
+    width:100%;
+  }
+  #intro{
+    color: #ffb31a;
+    font-size: 20px;
+  }
+  #title{
+    font-size: 72px;
+    color: #00e6ac;
+    padding-top: 140px;
+  }
+
+  a:link, a:visited {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    padding-right: 80px;
+    padding-left: 80px;
+    text-align: center;
+  }
+
+  a:hover, a:active {
+    border: none;
+    color: white;
+    background-color: #ffb366;
+  }
+  .navBar{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+</style>
+<script>
+  var scrollDown = document.getElementById('scrollDown');
+
+  function goDown(){
+    window.scrollTo(0,590);
+  }
+
+
+  scrollDown.addEventListener("click",goDown);
+</script>
+</html>

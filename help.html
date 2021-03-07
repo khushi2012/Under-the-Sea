@@ -1,0 +1,133 @@
+<html>
+<head>
+  <title> Help Out | Under the Sea </title>
+</head>
+<body>
+  <div class="header">
+    <div class="navBar">
+      <center>
+    <a href="index.html"> Home </a>
+    <a href="learnMore.html"> Learn More </a>
+    <a href="knowledge.html"> Check Your Knowledge </a>
+    <a href="help.html"> Help Out </a>
+    <a href="contact.html"> Contact Us </a>
+      </center>
+    </div>
+<center>
+<h1 id="title" > Help Out </h1>
+<p id="intro"> The only way to combat this problem is for <b>everyone</b> to pitch in.<br> We can help protect our oceans
+and the beloved marine life just by making small changes in our life.<br> Avoiding straws is a simple way to start. </p>
+<button class="arrows" id="scrollDown" style="margin-top: 180px;"><img src="arrow.png" style="height:85px;width:40px;"></button><br><br>
+</center>
+</div>
+<div class="main">
+<hr>
+<center>
+  <h2> Find beach cleanings happening near you</h2>
+ <i> *Stars represent active cleanings and points represent scheduled cleanings </i>
+<iframe src="https://www.google.com/maps/d/embed?mid=1QjbKMsVd8tu9--wEnDa8v2NGPrftp7A8" width="100%" height="480"></iframe>
+<hr>
+<h2 style="color:#00664b;"> Can't make it to beach cleanings? No worries! There are other ways to help! </h2>
+<h3> You can help just by making a few changes in your life </h3>
+<h4> Avoid using plastic and use reusable products </h4>
+<h4> Never leave any waste on the street,or on the beach.</h4>
+<h4>Avoid pre-packed fast foods or dispose of the packaging properly.</h4>
+<h4> Donate to organizations that help clean the ocean </h4>
+<hr>
+<h2> More Resources </h2>
+<button class="link" onclick"window.location.href='https://www.earthday.org/campaign/end-plastic-pollution/?gclid=CjwKCAjwxLH3BRApEiwAqX9arfHJ8epFKm9hmCGisZPIZZlNgHD4cNRBL4VHfdPv6HCzOBdRTAjUIRoClzkQAvD_BwE'"> Volunteering </button>
+<button class="link" onclick='window.location.href="https://marinesanctuary.org/blog/plastic-pollution-ocean-conservation-challenge/?gclid=CjwKCAjw57b3BRBlEiwA1ImytnKAUSIgTGAwAIoZC-aMhB2tj5L1TWjqzqlvBgjDhb75lnCVHLyX5BoCoRYQAvD_BwE"'> Marine Sanctuary </button>
+<button class="link"onclick='window.location.href="https://www.oceanunite.org/issues/marine-plastic-pollution-2/"'> Ocean Unite </button>
+<button class="link" onclick='window.location.href="https://www.oceanicsociety.org/blog/1720/7-ways-to-reduce-ocean-plastic-pollution-today"'>Ocean Society</button>
+<button class="link" onclick='window.location.href="https://www.worldanimalprotection.us/news/ghost-gear-still-plaguing-ocean-wildlife-big-business-making-improvements?gclid=CjwKCAjw57b3BRBlEiwA1ImytjwXMvvK45Lxgh42YmeVh4jyyv5psH4PexXTO-KfBNQ3VsdMEYTDNBoC3zEQAvD_BwE&gclsrc=aw.ds"'> Protection</button>
+
+</center>
+</div>
+</body>
+<style>
+  .link{
+    background-color: none;
+  }
+  .arrows{
+    background: none;
+    border: none;
+  }
+  .header{
+  background-image: url('straw.gif');
+  background-repeat: no-repeat;
+  background-size: 100% 625px;
+}
+button{
+  background-color:#009970;
+  border: 5px solid white;
+  padding: 10px 18px;
+  text-align: center;
+  font-size: 16px;
+  color:white;
+  margin-right: 15px;
+}
+
+button:hover{
+  background-color:white;
+  border: 5px solid #009970;
+  padding: 10px 18px;
+  text-align: center;
+  font-size: 16px;
+  color:#009970;
+}
+  #intro{
+    color: #e69900;
+    font-size: 20px;
+  }
+  #title{
+    font-size: 72px;
+    color: #009973;
+    padding-top: 30px;
+  }
+  .main{
+    background-image: url('bkg3.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .navBar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #008080;
+    width:100%;
+  }
+  a:link, a:visited {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    padding-right: 80px;
+    padding-left: 80px;
+    text-align: center;
+  }
+
+  a:hover, a:active {
+    border: none;
+    color: white;
+    background-color: #ffb366;
+  }
+  .navBar{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+
+</style>
+<script>
+  var scrollDown = document.getElementById('scrollDown');
+
+  function goDown(){
+    window.scrollTo(0,590);
+  }
+
+
+  scrollDown.addEventListener("click",goDown);
+</script>
+</html>

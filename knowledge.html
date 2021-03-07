@@ -1,0 +1,340 @@
+<html>
+<!DOCTYPE html>
+  <head>
+    <title> Check Your Knowledge | Under the Sea </title>
+  </head>
+  <div class="quiz">
+    <body>
+      <div class="header">
+      <div class="navBar">
+        <center>
+      <a href="index.html"> Home </a>
+      <a href="learnMore.html"> Learn More </a>
+      <a href="knowledge.html"> Check Your Knowledge </a>
+      <a href="help.html"> Help Out </a>
+      <a href="contact.html"> Contact Us </a>
+        </center>
+      </div>
+    <br>
+    <br>
+    <div class="normalButtons">
+      <button type="button" id="start" style="width:100%">Start</button>
+    </div>
+    </div>
+    <br>
+    <div>
+      <img src="sea.gif" width="100%" height="600px">
+    </div>
+<table>
+<div class="quizButtons">
+<tr><h2 class="questions"> What happens to plastic waste? </h2></tr>
+<tr> <img src="fidh.gif"  class="center"></tr>
+<tr>
+  <td><input type="radio" id="q1a1" name="q1">
+  <label for="q1a1">It's biodegradable and eventually disintegrates</label></td>
+  <td><input type="radio" id="q1a2" name="q1">
+  <label for="q1a2">It never goes away and only breaks into smaller pieces</label></td>
+  <td><input type="radio" id="q1a3" name="q1">
+  <label for="q1a3">All plastic is recycled</label></td>
+  <td><input type="radio" id="q1a4" name="q1">
+  <label for="q1a4">It is thrown in the ocean for fish to eat</label></td>
+</tr>
+</table>
+
+<table>
+<br>
+  <tr><h2 class="questions">Why is plastic dangerous for marine life?</h2></tr>
+<tr> <img src="manta.gif"class="center"></tr>
+<tr>
+  <td><input type="radio" id="q2a1" name="q2">
+  <label for="q2a1">They mistake it for food and can't digest it</label></td>
+  <td><input type="radio" id="q2a2" name="q2">
+  <label for="q2a2"> They can get tangled in it which hinders their ability to swim</label></td>
+  <td><input type="radio" id="q2a3" name="q2">
+  <label for="q2a3">Both a and b</label></td>
+  <td><input type="radio" id="q2a4" name="q2">
+  <label for="q2a4"> It's not dangerous because they use plastic waste for habitats</label></td>
+</tr>
+</table>
+
+<table>
+<br>
+  <tr><h2 class="questions"> Where does the majority of plastic waste end up?  </h2></tr>
+  <tr> <img src="jelly.gif"class="center"></tr>
+
+<tr>
+  <td><input type="radio" id="q3a1" name="q3">
+  <label for="q3a1">Oceans</label></td>
+  <td><input type="radio" id="q3a2" name="q3">
+  <label for="q3a2">Burned for energy</label></td>
+  <td><input type="radio" id="q3a3" name="q3">
+  <label for="q3a3">Landfills</label></td>
+  <td><input type="radio" id="q3a4" name="q3">
+  <label for="q3a4">Recycled</label></td>
+</tr>
+</table>
+
+<table>
+<br>
+  <tr><h2 class="questions"> How many million tons of plastic are dumped in our oceans every year?</h2></tr>
+<tr> <img src="turt.gif"class="center"></tr>
+
+<tr>
+  <td><input type="radio" id="q4a1" name="q4">
+  <label for="q4a1">1 million tons</label></td>
+  <td><input type="radio" id="q4a2" name="q4">
+  <label for="q4a2">8 million tons</label></td>
+  <td><input type="radio" id="q4a3" name="q4">
+  <label for="q4a3">20 million tons</label></td>
+  <td><input type="radio" id="q4a4" name="q4">
+  <label for="q4a4">50 million tons</label></td>
+</tr>
+</table>
+
+<table>
+<br>
+  <tr><h2 class="questions">How many marine species are harmed by plastic pollution?</h2></tr>
+<div class="answer-choice">
+<tr> <img src="octo.gif"class="center"></tr>
+
+  <tr>
+    <td><input type="radio" id="q5a1" name="q5">
+    <label for="q5a1">52</label></td>
+    <td><input type="radio" id="q5a2" name="q5">
+    <label for="q5a2">693</label></td>
+    <td><input type="radio" id="q5a3" name="q5">
+    <label for="q5a3">1326</label></td>
+    <td><input type="radio" id="q5a4" name="q5">
+    <label for="q5a4">5489</label></td>
+  </tr>
+</div>
+</table>
+<table>
+  <br>
+  <br>
+  <br>
+  <br>
+  <tr>
+  </div>
+    <div class="result">
+      <h2 id="result" class="questions">Result: </h2>
+    </div>
+  <tr>
+  <div class="normalButtons">
+  <button type="button" id="submit" style="width:100%"> Submit </button>
+  <br>
+  <button type="button" id="restart" style="width:100%">Restart</button>
+  </tr>
+
+<style>
+  .navBar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #008080;
+    width:100%;
+  }
+  a:link, a:visited {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    padding-right: 80px;
+    padding-left: 80px;
+    text-align: center;
+  }
+
+  a:hover, a:active {
+    border: none;
+    color: white;
+    background-color: #ffb366;
+  }
+  .navBar{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+  .center{
+    width: 100%;
+    height: 300px;
+  }
+  input[type="radio"]{
+  opacity: 0;
+  position: fixed;
+  width: 0;
+}
+
+label{
+  display:inline-block;
+  background-color: #009970;
+  border: 5px solid white;
+  padding: 10px 18px;
+  text-align: center;
+  font-size: 16px;
+  color:white;
+}
+
+input[type="radio"]:checked + label{
+  background-color: white;
+  border: 5px solid #009970;
+  padding: 10px 18px;
+  text-align: center;
+  font-size: 16px;
+  color: #009970;
+}
+
+label:hover{
+  background-color: white;
+  border: 5px solid #009970;
+  padding: 10px 18px;
+  text-align: center;
+  font-size: 16px;
+  color: #00e6a8;
+}
+
+button{
+  background-color:#009970;
+  border: 5px solid white;
+  padding: 10px 18px;
+  text-align: center;
+  font-size: 16px;
+  color:white;
+  margin-right: 15px;
+}
+
+button:hover{
+  background-color:white;
+  border: 5px solid #009970;
+  padding: 10px 18px;
+  text-align: center;
+  font-size: 16px;
+  color:#009970;
+}
+td {
+  text-align:center;
+  vertical-align: center;
+  width:2000px;
+}
+
+.questions {
+  font-family: 'Permanent Marker';
+  color: #009970;
+  border: 10px solid #009970;
+  background: white;
+  padding: 10px;
+}
+body{
+  background-image: url('bkg.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+</style>
+<script>
+  //Variables
+var optionA = 0;
+var optionB = 0;
+var optionC = 0;
+var optionD = 0;
+var Score = 0;
+
+var restart = document.getElementById("restart");
+var submit = document.getElementById("submit");
+var result = document.getElementById("result");
+var start = document.getElementById("start");
+var learnMore = document.getElementById("learnMore");
+var goUp = document.getElementById("goUp");
+
+var q1a1 = document.getElementById("q1a1");
+var q1a2 = document.getElementById("q1a2");
+var q1a3 = document.getElementById("q1a3");
+var q1a4 = document.getElementById("q1a4");
+
+var q2a1 = document.getElementById("q2a1");
+var q2a2 = document.getElementById("q2a2");
+var q2a3 = document.getElementById("q2a3");
+var q2a4 = document.getElementById("q2a4");
+
+var q3a1 = document.getElementById("q3a1");
+var q3a2 = document.getElementById("q3a2");
+var q3a3 = document.getElementById("q3a3");
+var q3a4 = document.getElementById("q3a4");
+
+var q4a1 = document.getElementById("q4a1");
+var q4a2 = document.getElementById("q4a2");
+var q4a3 = document.getElementById("q4a3");
+var q4a4 = document.getElementById("q4a4");
+
+var q5a1 = document.getElementById("q5a1");
+var q5a2 = document.getElementById("q5a2");
+var q5a3 = document.getElementById("q5a3");
+var q5a4 = document.getElementById("q5a4");
+
+//Functions
+
+function re_start(){
+  location.reload();
+  window.scrollTo(0,0);
+}
+
+function sub_mit(){
+  //Scoring
+  if (q1a2.checked) {
+    Score += 1;
+  }
+  if (q2a3.checked){
+    Score +=1;
+  }
+  if (q3a1.checked){
+    Score +=1;
+  }
+  if (q4a2.checked){
+    Score +=1;
+  }
+  if (q5a2.checked){
+    Score +=1;
+  }
+}
+
+function re_sult(){
+  if (Score == 0){
+    result.innerHTML = "0/6  Try again for a better score!";
+  }
+  else if (Score == 1){
+    result.innerHTML = "1/5  Try again for a better score!";
+  }
+  else if (Score == 2){
+    result.innerHTML = "2/5  Keep trying for a better score!";
+  }
+  else if (Score == 3){
+    result.innerHTML = "3/5  Keep trying for a better score!";
+  }
+  else if (Score == 4){
+    result.innerHTML = "4/5  Keep trying for a better score!";
+  }
+  else if (Score == 5){
+    result.innerHTML = "5/5  Wow! You are an expert about the ocean!";
+  }
+}
+
+function st_art(){
+  window.scrollTo(0,760);
+}
+
+function scroll_Down(){
+  window.scrollTo(250,800);
+}
+
+function scroll_Up(){
+  window.scrollTo(0,100);
+}
+
+
+//Event Listeners for buttons
+restart.addEventListener("click",re_start);
+submit.addEventListener("click",sub_mit);
+submit.addEventListener("click",re_sult);
+start.addEventListener("click",st_art);
+goUp.addEventListener("click",scroll_Up);
+</script>
+</html>
